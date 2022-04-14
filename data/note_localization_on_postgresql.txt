@@ -1,0 +1,205 @@
+CREATE TABLE t_ja_JP (t text COLLATE "ja_JP");
+# CREATE TABLE t_ja_JP_eucjp (t text COLLATE "ja_JP.eucjp");
+# CREATE TABLE t_ja_JP_ujis (t text COLLATE "ja_JP.ujis");
+CREATE TABLE t_ja_JP_utf8 (t text COLLATE "ja_JP.utf8");
+# CREATE TABLE t_japanese (t text COLLATE "japanese");
+# CREATE TABLE t_japanese_euc (t text COLLATE "japanese.euc");
+# CREATE TABLE t_ja_JP (t text COLLATE "ja_JP");
+CREATE TABLE t_ja_x_icu (t text COLLATE "ja-x-icu");
+CREATE TABLE t_ja_JP_x_icu (t text COLLATE "ja-JP-x-icu");
+
+CREATE TABLE t_zh_CN (t text COLLATE "zh_CN");
+# CREATE TABLE t_zh_CN_gb2312 (t text COLLATE "zh_CN.gb2312");
+CREATE TABLE t_zh_CN_utf8 (t text COLLATE "zh_CN.utf8");
+CREATE TABLE t_zh_x_icu (t text COLLATE "zh-x-icu");
+CREATE TABLE t_zh_Hans_x_icu (t text COLLATE "zh-Hans-x-icu");
+CREATE TABLE t_zh_Hans_HK_x_icu (t text COLLATE "zh-Hans-HK-x-icu");
+CREATE TABLE t_zh_Hant_x_icu (t text COLLATE "zh-Hant-x-icu");
+CREATE TABLE t_zh_Hant_HK_x_icu (t text COLLATE "zh-Hant-HK-x-icu");
+CREATE TABLE t_zh_Hant_TW_x_icu (t text COLLATE "zh-Hant-TW-x-icu");
+
+CREATE TABLE t_en_US_utf8 (t text COLLATE "en_US.utf8");
+CREATE TABLE t_en_US_x_icu (t text COLLATE "en-US-x-icu");
+
+
+INSERT INTO t_ja_JP (t) VALUES 
+INSERT INTO t_ja_JP_utf8 (t) VALUES 
+INSERT INTO t_ja_x_icu (t) VALUES 
+INSERT INTO t_ja_JP_x_icu (t) VALUES 
+INSERT INTO t_zh_CN (t) VALUES 
+INSERT INTO t_zh_CN_utf8 (t) VALUES 
+INSERT INTO t_zh_x_icu (t) VALUES 
+INSERT INTO t_zh_Hans_x_icu (t) VALUES 
+INSERT INTO t_zh_Hans_HK_x_icu (t) VALUES 
+INSERT INTO t_zh_Hant_x_icu (t) VALUES 
+INSERT INTO t_zh_Hant_HK_x_icu (t) VALUES 
+INSERT INTO t_zh_Hant_TW_x_icu (t) VALUES 
+INSERT INTO t_en_US_utf8 (t) VALUES 
+INSERT INTO t_en_US_x_icu (t) VALUES 
+
+('a'),
+('z'),
+('A'),
+('Z'),
+('ａ'),
+('ｚ'),
+('Ａ'),
+('Ｚ'),
+('0'),
+('1'),
+('9'),
+('０'),
+('１'),
+('９'),
+('⓪'),
+('①'),
+('一'),
+('壱'),
+('❶'),
+('Ⅰ'),
+('ⅰ'),
+('⑴'),
+('⑨'),
+('九'),
+('❾'),
+('Ⅸ'),
+('ⅸ'),
+('⑼'),
+('(9)'),
+('⒐'),
+('9.'),
+('㊿'),
+('㉌'),
+('Ⅶ'),
+('ⅶ'),
+('VII'),
+('vii'),
+('Ⅻ'),
+('ⅻ'),
+('XII'),
+('xii'),
+('α'),
+('ω'),
+('Α'),
+('Ω'),
+('(a)'),
+('(z)'),
+('{a}'),
+('[a]'),
+('（a）'),
+('（z）'),
+('｛a｝'),
+('［a］'),
+('【a】'),
+(' a'),
+('　a'),
+('_a'),
+('＿a'),
+('/a'),
+('／a'),
+('あ'),
+('は'),
+('ば'),
+('は゛'),
+('ぱ'),
+('はﾟ'),
+('ん'),
+('ア'),
+('ハ'),
+('バ'),
+('ハ゛'),
+('パ'),
+('ン'),
+('ｱ'),
+('ﾊ'),
+('ﾊﾞ'),
+('ﾊﾟ'),
+('ﾝ'),
+('あつ'),
+('あっ'),
+('ああ'),
+('あぁ'),
+('あゝ'),
+('あー'),
+('あ-'),
+('あ〜'),
+('あ～'),
+('あ~'),
+('あ…'),
+('あﾞ'),
+('キロ'),
+('ｷﾛ'),
+('㌔'),
+('km'),
+('ｋｍ'),
+('㎞'),
+('㌖'),
+('粁'),
+('cm'),
+('ｃｍ'),
+('㎝'),
+('㌢'),
+('糎'),
+('kg'),
+('ｋｇ'),
+('㎏'),
+('㌕'),
+('瓩'),
+('㈱'),
+('(株)'),
+('（株）'),
+('高'),
+('髙'),
+('畑'),
+('畠'),
+('働'),
+('匂'),
+('!'),
+('！'),
+('@'),
+('＠'),
+('#'),
+('＃'),
+('$'),
+('＄'),
+('?'),
+('？'),
+(','),
+('，'),
+('.'),
+('．'),
+('、'),
+('。'),
+('､'),
+('｡'),
+('♡'),
+('💓'),
+('変'),
+('變'),
+('变'),
+('総'),
+('總'),
+('总'),
+('가'),
+('히'),
+('까'),
+('찌'),
+('𡨸'),
+('喃'),
+('𢆥'),
+('𥪞'),
+('Ѐ'),
+('Ё'),
+('Ӿ'),
+('ӿ'),
+('Ä'),
+('ä'),
+('Ü'),
+('ü'),
+('¡'),
+('¿'),
+('ٹ'),
+('ٺ'),
+('ے'),
+('ۓ')
+;
